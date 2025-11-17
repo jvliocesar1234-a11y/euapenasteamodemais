@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Te amo com orgulho e sem preconceito — Livro 3D</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery e turn.js via CDN (necessários) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/3/turn.min.js"></script>
+</head>
+<body>
+  <main class="stage">
+    <div class="wrap">
+      <div id="flipbook" class="flipbook">
+        <!-- Capa frontal (hard) -->
+        <div class="page hard cover-front" data-page="1">
+          <div class="cover-content">
+            <h1>Te amo<br><span>com orgulho e sem preconceito</span></h1>
+            <div class="open-hint">Clique na capa para abrir</div>
+          </div>
+        </div>
+
+        <!-- Página interna 1 -->
+        <div class="page" data-page="2">
+          <div class="inner">
+            <h2>Página 1</h2>
+            <p class="text">Acho que eu nunca disse isso, mas as vezes acho que nao to demonstrando o suficiente. eu amo você em todos os seus aspectos, da forma que fala, tira foto ou se veste.</p>
+            <div class="img-wrap"><img alt="Página 1" src="imagens/pag1.jpg"></div>
+          </div>
+        </div>
+
+        <!-- Página interna 2 -->
+        <div class="page" data-page="3">
+          <div class="inner">
+            <h2>Página 2</h2>
+            <p class="text">sempre fui fã desse seu sorriso, e é nele que eu encontro vontade de ser um homem melhor pra num futuro nosso, ser um namorado e marido melhor..</p>
+            <div class="img-wrap"><img alt="Página 2" src="imagens/pag2.jpg"></div>
+          </div>
+        </div>
+
+        <!-- Página interna 3 -->
+        <div class="page" data-page="4">
+          <div class="inner">
+            <h2>Página 3</h2>
+            <p class="text">sempre tive orgulho do que você faz, é bem cansativo porem, você faz por amor. você é muito dedicada e esforçada no que faz e eu admiro muito isso em você.</p>
+            <div class="img-wrap"><img alt="Página 3" src="imagens/pag3.jpg"></div>
+          </div>
+        </div>
+
+        <!-- Página interna 4 -->
+        <div class="page" data-page="5">
+          <div class="inner">
+            <h2>Página 4</h2>
+            <p class="text">seu rosto lindo dês do dia que te vi (esse ano ksksks) ta sendo a primeira e utima coisa que penso, pois sou apaixonado nele.</p>
+            <div class="img-wrap"><img alt="Página 4" src="imagens/pag4.jpg"></div>
+          </div>
+        </div>
+
+        <!-- Página interna 5 -->
+        <div class="page" data-page="6">
+          <div class="inner">
+            <h2>Página 5</h2>
+            <p class="text">sabe amor? eu cometi erros e não foram poucos. acredito que eu esteja pagando pelo oq fiz, mas reencontrar você me faz pensar que to recebendo uuma segunda chance de fazer o certo. eu amo muito você, mais do que eu devia, eu sonho com o dia que serei seu namorado e pode demonstrar com atitudes de que eu sou o homem que vai te fazer feliz pelo resto da sua vida. não tem um dia que eu nâo pense em te ver denovo meu amor, você me faz tão bem, você chegou num momento aonde eu ja nâo queria mais nada alem de silêncio, paz e solidão e olha eu aqui? fazendo ligção com você e eu odeio ligação mas eu amo quando é com você. eu te lobo mariana letícia.</p>
+            <div class="img-wrap"><img alt="Página 5" src="imagens/pag5.jpg"></div>
+          </div>
+        </div>
+
+        <!-- Capa final (hard) -->
+        <div class="page hard cover-back" data-page="7">
+          <div class="cover-content">
+            <h2>Eu te amo <span class="heart">❤</span></h2>
+            <div class="restart-hint">Clique em Reiniciar para voltar ao início</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls" aria-hidden="true">
+        <button id="prevBtn" class="ctrl">◀ Anterior</button>
+        <button id="nextBtn" class="ctrl">Próxima ▶</button>
+        <button id="restartBtn" class="ctrl hidden">Reiniciar</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
